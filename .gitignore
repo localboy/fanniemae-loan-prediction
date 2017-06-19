@@ -89,5 +89,6 @@ ENV/
 .ropeproject
 
 .idea
+.vscode
 data
 processed
