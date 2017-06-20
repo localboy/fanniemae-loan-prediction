@@ -1,4 +1,4 @@
-Loan Prediction
+Fannie Mae Loan Prediction
 -----------------------
 
 Predict whether or not loans acquired by Fannie Mae will go into foreclosure.  Fannie Mae acquires loans from other lenders as a way of inducing them to lend more.  Fannie Mae releases data on the loans it has acquired and their performance afterwards [here](http://www.fanniemae.com/portal/funding-the-market/data/loan-performance-data.html).
@@ -23,7 +23,7 @@ Installation
  
 * Install the requirements using `pip install -r requirements.txt`.
 
-Usage
+Runnig the project
 -----------------------
 
 * Run `mkdir processed` to create a directory for our processed datasets.
@@ -34,3 +34,6 @@ Usage
     * It will add a file called `train.csv` to the `processed` folder.
 * Run `python predict.py`.
     * This will run cross validation across the training set, and print the accuracy score.
+
+To Do List
+------------------------
